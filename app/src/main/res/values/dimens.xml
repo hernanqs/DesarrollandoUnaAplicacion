@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_nacimiento">25px</dimen>
+    <dimen name="padding_datos">7px</dimen>
+    <dimen name="padding_bottom_datos">15px</dimen>
+    <dimen name="margin_boton_editar">25px</dimen>
+    <dimen name="padding_titulo">40px</dimen>
+    <dimen name="padding_bottom_titulo">70px</dimen>
+    <dimen name="textsize_titulo">90px</dimen>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarDatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+    >
+
+        <TextView
+            android:id="@+id/titulo_confirmar_datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/padding_titulo"
+            android:paddingBottom="@dimen/padding_bottom_titulo"
+            android:textSize="@dimen/textsize_titulo"
+            android:text="@string/titulo_confirmar_datos"
+            android:textColor="@color/color_titulo"
+            />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_datos"
+            android:paddingBottom="@dimen/padding_bottom_datos"
+            />
+
+        <TextView
+            android:id="@+id/fecha_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_datos"
+            android:paddingBottom="@dimen/padding_bottom_datos"
+            />
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_datos"
+            android:paddingBottom="@dimen/padding_bottom_datos"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_datos"
+            android:paddingBottom="@dimen/padding_bottom_datos"
+            />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_datos"
+            android:paddingBottom="@dimen/padding_bottom_datos"
+            />
+
+        <Button
+            android:id="@+id/boton_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_editar"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_boton_editar"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

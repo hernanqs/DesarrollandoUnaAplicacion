@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DesarrollandoUnaAplicacion</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_nacimiento">Fecha de nacimiento</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">Mail</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="boton_editar">Editar Datos</string>
+    <string name="titulo_confirmar_datos">Confirmar Datos</string>
+
+    <string name="extra_nombre">nombre</string>
+    <string name="extra_telefono">telefono</string>
+    <string name="extra_email">email</string>
+    <string name="extra_descripcion">descripcion</string>
+    <string name="extra_dia_nacimiento">diaNacimiento</string>
+    <string name="extra_mes_nacimiento">mesNacimiento</string>
+    <string name="extra_anio_nacimiento">anioNacimiento</string>
+</resources>
